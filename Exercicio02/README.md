@@ -13,7 +13,7 @@ Nome da Base de Dados: Tarifas Bancárias - por Segmento e por Instituição
 Formato: Leitura via API Rest (request)
 Entrada: CNPJs encontrados na base "Ranking de Instituições por Índice de Reclamações"
 
-Ingestão de Dados com Python. 
+INGESTÃO DOS DADOS:
 
 Ferramentas utilizadas:
 1° Extração dos dados: Python
@@ -34,6 +34,7 @@ Posterior a inseção dos dados em cada uma das tabelas fato, é realizada a con
 A seguir exibe-se através do comando describe cada uma das tabelas criadas: 
 
 1° Tabela Stage para armazenar os dados da base "Ranking de Instituições por Índice de Reclamações":
+
 ![image](https://user-images.githubusercontent.com/60858939/180095486-463d8b54-2316-4d32-aea5-65d1b50cc6ae.png)
 
 2° Tabela Stage para armazenar os dados lidos da base "Tarifas Bancárias - por Segmento e por Instituição"
@@ -43,15 +44,19 @@ A seguir exibe-se através do comando describe cada uma das tabelas criadas:
 ![image](https://user-images.githubusercontent.com/60858939/180095749-97c7a937-7db0-4a5f-826c-ac4e41290f64.png)
 
 3.1° Tabela Dimensão Categoria:
+
 ![image](https://user-images.githubusercontent.com/60858939/180095822-269c7458-ed17-4be5-928a-96490385104c.png)
 
 3.2° Tabela Dimensão Instituição:
+
 ![image](https://user-images.githubusercontent.com/60858939/180095982-138db878-de1a-4a88-9eca-5662e22fe0a0.png)
 
 3.3° Tabela Dimensão Periodo:
+
 ![image](https://user-images.githubusercontent.com/60858939/180096037-1be9a0f6-c21e-4e78-a9d1-53741ca8ce02.png)
 
 3.3° Tabela Dimensão Tipo:
+
 ![image](https://user-images.githubusercontent.com/60858939/180096351-170f1111-9dde-4a09-91aa-3bb3debc45e9.png)
 
 4° Tabela Fato2: quantidade de serviços pro instituição
@@ -62,11 +67,15 @@ A seguir exibe-se através do comando describe cada uma das tabelas criadas:
 
 
 Star Schema - Modelagem:
+
 ![eedb011_ex2_starschema-fato1 drawio](https://user-images.githubusercontent.com/60858939/180098695-f546a964-8892-4774-adbc-cf302c7ba548.png)
+
 ![eedb011_ex2_starschema-fato2 drawio](https://user-images.githubusercontent.com/60858939/180098705-508c15c5-ad4c-4008-a3a3-3c7f54b5b85d.png)
 
 Star Schema no Tableau:
 ![image](https://user-images.githubusercontent.com/60858939/180097825-13e61017-de0b-4fec-8dc2-56382231b0f9.png)
+
+VISUALIZAÇÃO DOS DADOS:
 
 Dashboard no Tableau:
 ![image](https://user-images.githubusercontent.com/60858939/180099041-c4993dd8-4663-418e-9803-0ec39315276f.png)
