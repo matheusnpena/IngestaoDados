@@ -37,10 +37,12 @@ A seguir exibe-se através do comando describe cada uma das tabelas criadas:
 
 ![image](https://user-images.githubusercontent.com/60858939/180095486-463d8b54-2316-4d32-aea5-65d1b50cc6ae.png)
 
-2° Tabela Stage para armazenar os dados lidos da base "Tarifas Bancárias - por Segmento e por Instituição"
+2° Tabela Stage para armazenar os dados lidos da base "Tarifas Bancárias - por Segmento e por Instituição":
+
 ![image](https://user-images.githubusercontent.com/60858939/180095609-a6272f3a-c55d-4a6e-8bed-cf4f25d767f8.png)
 
 3° Tabela fato1: quantida de reclamações por instituição:
+
 ![image](https://user-images.githubusercontent.com/60858939/180095749-97c7a937-7db0-4a5f-826c-ac4e41290f64.png)
 
 3.1° Tabela Dimensão Categoria:
@@ -59,12 +61,13 @@ A seguir exibe-se através do comando describe cada uma das tabelas criadas:
 
 ![image](https://user-images.githubusercontent.com/60858939/180096351-170f1111-9dde-4a09-91aa-3bb3debc45e9.png)
 
-4° Tabela Fato2: quantidade de serviços pro instituição
+4° Tabela Fato2: quantidade de serviços pro instituição:
+
 ![image](https://user-images.githubusercontent.com/60858939/180096471-82e81f15-3008-46ae-afe7-7d7a68e30db4.png)
 
-4.1° Tabela Dimensão Serviço
-![image](https://user-images.githubusercontent.com/60858939/180096546-648fb805-e5f9-4958-a446-1086f807d16d.png)
+4.1° Tabela Dimensão Serviço:
 
+![image](https://user-images.githubusercontent.com/60858939/180096546-648fb805-e5f9-4958-a446-1086f807d16d.png)
 
 Star Schema - Modelagem:
 
