@@ -5,29 +5,29 @@ Inserção, tratamento e visualização de dados de arquivos CSV e chamada de AP
 
 FONTE DE DADOS:
 ####
-Nome da Base de Dados: Ranking de Instituições por Índice de Reclamações \n
-Formato: CSV \n
-Periodo: Anos: 2020 e 2021, consolidado por Trimestre \n
+Nome da Base de Dados: Ranking de Instituições por Índice de Reclamações   
+Formato: CSV  
+Periodo: Anos: 2020 e 2021, consolidado por Trimestre  
 ###
-Nome da Base de Dados: Tarifas Bancárias - por Segmento e por Instituição \n
-Formato: Leitura via API Rest (request) \n
-Entrada: CNPJs encontrados na base "Ranking de Instituições por Índice de Reclamações" \n
+Nome da Base de Dados: Tarifas Bancárias - por Segmento e por Instituição  
+Formato: Leitura via API Rest (request)  
+Entrada: CNPJs encontrados na base "Ranking de Instituições por Índice de Reclamações"  
 
-INGESTÃO DOS DADOS:
+INGESTÃO DOS DADOS:  
 
-Ferramentas utilizadas:
-1° Extração dos dados: Python
-2° Load: MySQL (local)
-3° Transform: SQL
-3° Visualização: Tableau 
+Ferramentas utilizadas:  
+1° Extração dos dados: Python  
+2° Load: MySQL (local)  
+3° Transform: SQL  
+3° Visualização: Tableau     
 
-Cria-se uma rotina Job que realiza os seguintes passos:
-#1) Criacao do database
-#2) Criar tabelas stage
-#3) Insercao tabelas stage
-#4) Criacao fato1 e dim
-#5) Criacao fato2 e dim
-#6) Insercao dados fato1 e fato2
+Cria-se uma rotina Job que realiza os seguintes passos:  
+#1) Criacao do database  
+#2) Criar tabelas stage  
+#3) Insercao tabelas stage  
+#4) Criacao fato1 e dim  
+#5) Criacao fato2 e dim  
+#6) Insercao dados fato1 e fato2  
 
 Posterior a inseção dos dados em cada uma das tabelas fato, é realizada a construção das visualização no Tablau. Obtou-se pelo uso do Tableau pela facilidade de relacionamento entres as dimensões e fatos do star schema. 
 
