@@ -5,13 +5,13 @@ Inserção, tratamento e visualização de dados de arquivos CSV e chamada de AP
 
 FONTE DE DADOS:
 ####
-Nome da Base de Dados: Ranking de Instituições por Índice de Reclamações
-Formato: CSV
-Periodo: Anos: 2020 e 2021, consolidado por Trimestre
+Nome da Base de Dados: Ranking de Instituições por Índice de Reclamações \n
+Formato: CSV \n
+Periodo: Anos: 2020 e 2021, consolidado por Trimestre \n
 ###
-Nome da Base de Dados: Tarifas Bancárias - por Segmento e por Instituição
-Formato: Leitura via API Rest (request)
-Entrada: CNPJs encontrados na base "Ranking de Instituições por Índice de Reclamações"
+Nome da Base de Dados: Tarifas Bancárias - por Segmento e por Instituição \n
+Formato: Leitura via API Rest (request) \n
+Entrada: CNPJs encontrados na base "Ranking de Instituições por Índice de Reclamações" \n
 
 INGESTÃO DOS DADOS:
 
