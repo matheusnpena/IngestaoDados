@@ -61,6 +61,17 @@ A seguir exibe-se através do comando describe cada uma das tabelas criadas:
 ![image](https://user-images.githubusercontent.com/60858939/180096546-648fb805-e5f9-4958-a446-1086f807d16d.png)
 
 
+Star Schema - Modelagem:
+![eedb011_ex2_starschema-fato1 drawio](https://user-images.githubusercontent.com/60858939/180098695-f546a964-8892-4774-adbc-cf302c7ba548.png)
+![eedb011_ex2_starschema-fato2 drawio](https://user-images.githubusercontent.com/60858939/180098705-508c15c5-ad4c-4008-a3a3-3c7f54b5b85d.png)
+
+Star Schema no Tableau:
+![image](https://user-images.githubusercontent.com/60858939/180097825-13e61017-de0b-4fec-8dc2-56382231b0f9.png)
+
+Dashboard no Tableau:
+![image](https://user-images.githubusercontent.com/60858939/180099041-c4993dd8-4663-418e-9803-0ec39315276f.png)
+
+
 
 
 
